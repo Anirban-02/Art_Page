@@ -55,7 +55,7 @@ function Buy() {
         const{name,email,address,number,size,medium,orderImage}=user;
         const amount=Price+MedPrice;
         try {
-            const res = await axios.post("https://art-page-omega.vercel.app//data",
+            const res = await axios.post("https://art-page-omega.vercel.app/data",
         {
             name,email,address,number,size,medium,orderImage,amount,
         },
