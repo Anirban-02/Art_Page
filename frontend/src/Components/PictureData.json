@@ -1,0 +1,122 @@
+[
+    {
+        "img1": "./img/pic13.jpeg",
+        "name": "Vidyasagar",
+        "price": "NA",
+        "category": "Commissioned",
+        "sold":"NA",
+        "date":"2023",
+        "tags":["portrait","sketch","graphite","Commissioned"],
+        "medium":"Graphite"
+    },
+    {
+        "img1": "./img/pic3.jpeg",
+        "name": "",
+        "price": "NA",
+        "category": "Commissioned",
+        "sold":"NA",
+        "date":"2021",
+        "tags":["portrait","colour","pencil colour","Commissioned"],
+        "medium":"Mixed Medium"
+    },
+    {
+        "img1": "./img/pic4.jpeg",
+        "name": "",
+        "price": "NA",
+        "category": "Commissioned",
+        "sold":"NA",
+        "date":"2021",
+        "tags":["portrait","colour","mixed medium","Commissioned"],
+        "medium":"Mixed Medium"
+    },
+    {
+        "img1": "./img/pic5.jpeg",
+        "name": "",
+        "price": "NA",
+        "category": "Commissioned",
+        "sold":"NA",
+        "date":"2021",
+        "tags":["portrait","sketch","graphite","Commissioned"],
+        "medium":"Graphite"
+    },
+    {
+        "img1": "./img/pic6.jpeg",
+        "name": "",
+        "price": "NA",
+        "category": "Commissioned",
+        "sold":"NA",
+        "date":"2021",
+        "tags":["portrait","sketch","graphite","Commissioned"],
+        "medium":"Graphite"
+    },
+    {
+        "img1": "./img/pic7.jpeg",
+        "name": "",
+        "price": "NA",
+        "category": "Gifts",
+        "sold":"NA",
+        "date":"2022",
+        "tags":["portrait","colour","colour pencil","Commissioned"],
+        "medium":"Colour Pencil"
+    },
+    {
+        "img1": "./img/pic8.jpeg",
+        "name": "Old Man Smoking",
+        "price": "NA",
+        "category": "For Sale",
+        "sold":"NA",
+        "date":"2020",
+        "tags":["sketch","graphite","hyperrealistic"],
+        "medium":"Graphite"
+    },
+    {
+        "img1": "./img/pic9.jpeg",
+        "name": "",
+        "price": "NA",
+        "category": "Gifts",
+        "sold":"NA",
+        "date":"2021",
+        "tags":["portrait","sketch","graphite","Commissioned"],
+        "medium":"Mixed Medium"
+    },
+    {
+        "img1": "./img/pic10.jpeg",
+        "name": "Sunset",
+        "price": "₹299",
+        "category": "For Sale",
+        "sold":"No",
+        "date":"2022",
+        "tags":["portrait","animals","soft pastel"],
+        "medium":"Soft Pastel"
+    },
+    {
+        "img1": "./img/pic11.jpeg",
+        "name": "Durga Maata",
+        "price": "₹499",
+        "category": "For Sale",
+        "sold":"yes",
+        "date":"2022",
+        "tags":["durga","colour","oil"],
+        "medium":"Oil Painting"
+    },
+    {
+        "img1": "./img/pic2.jpeg",
+        "name": "",
+        "Price": "NA",
+        "category": "Commissioned",
+        "sold":"NA",
+        "date":"2020",
+        "tags":["portrait","sketch","graphite"],
+        "medium":"Graphite"
+    },
+    {
+        "img1": "./img/pic12.jpeg",
+        "name": "Eken Babu",
+        "price": "₹499",
+        "category": "For Sale",
+        "sold":"No",
+        "date":"2022",
+        "tags":["series","colour","water colour"],
+        "medium":"Water Colour"
+    }
+]

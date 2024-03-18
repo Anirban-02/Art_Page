@@ -1,0 +1,53 @@
+.buyrow{
+    padding-top: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../public/img/bg3.jpg');
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color: black;
+}
+.left{
+    border-radius: 30px;
+    width: fit-content;
+    padding: 50px 70px;
+    background-color: blueviolet;
+    font-style:normal;
+    font-size: 20px;
+}
+
+.form-group{
+    display:grid;
+    color: white;
+    margin-top: 15px;
+}
+input{
+    border-radius: 5px;
+
+}
+.order-button{
+    border-radius: 10px;
+    padding: 5px 15px;
+    font-size: 25px;
+}
+.button{
+    margin-top: 20px;
+    text-align: center;
+}
+@media screen and (max-width: 960px)
+{
+    .left{
+        
+        font-size: 15px;
+    }
+
+}
+
+.Price{
+    text-align: center;
+}
+
+

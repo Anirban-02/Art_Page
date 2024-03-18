@@ -1,0 +1,105 @@
+.search-main{
+  width: 60vw;
+  margin-left: 2%;
+}
+.search-bar{
+    position:absolute;
+    height: 10px;
+    align-items:center;
+    justify-content: center;
+    padding-left: 30px;
+    display: flex;
+
+  }
+
+#searchbox{
+  width: 30vw;
+  min-height: 40px;
+  text-align: center;
+  border-radius: 5px;
+  
+}
+.but{
+  padding-top: 4px;
+  margin-left: 3%;
+  font-size: 1.5rem;
+  height: 30px;
+  width: 50px;
+}
+
+.dataResult {
+    width: 29vw;
+    align-items: center;
+    height: 200px;
+    position: fixed;
+    margin-top: 18px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+    overflow-y: auto;
+    z-index: 0;
+  }
+  
+  
+  .dataResult .options {
+    width:100%;
+    padding: 20px 30px;
+    height: 30px;
+    padding-top: 30px;
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: black;
+    
+  }
+  .dataResult :hover{
+    cursor: pointer;
+    background-color: bisque;
+    
+  }
+  @media screen and (max-width: 1124px) {
+    .search-main{
+      margin: 0%;
+      padding: 0%;
+      justify-content: center;
+      width:100%;
+    }
+    .search-bar{
+      position: relative;
+      width: 90%;
+      display: flex;
+      margin-top: 45px;
+      justify-content: center;
+      padding-left: 0px;
+   
+    }
+    .options p{
+      cursor: pointer;
+      
+    }
+    #searchbox{
+      width: 280px;
+      align-items: center;
+      justify-content: center;
+      min-height: 34px;
+      border-radius: 5px; 
+    }
+    .but{
+      margin-left: 2%;
+      font-size: 1.5rem;
+      height: 30px;
+      width: 0px;
+    }
+
+  }
+  
+  @media screen and (max-width: 500px) {
+    .search-bar{
+      width: 85%;
+    }
+    #searchbox{
+      width: 200px;
+    }
+  }

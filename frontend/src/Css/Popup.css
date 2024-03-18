@@ -1,0 +1,120 @@
+.row{
+    margin:0;
+}
+.popup{
+    margin: 0;
+    padding: 0;
+    top: 60px;
+    left:0;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.3);
+    height: 100vh;
+    position:fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.popup-in{
+    position :relative;
+    width: 75%;
+    height: 75%;
+    padding: 40px;
+    background-image: url(../../public/img/bg3.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    
+}
+.popup-in-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+#verticalpic{
+    height: 100%;
+    padding: 3px 4px;
+    border: 10px solid black;
+    
+}
+#horizontalpic{
+    height:fit-content ;
+    width:100% ;
+    padding: 3px 4px;
+    border: 10px solid black; 
+}
+
+.popup-in-right{
+    display: block;
+    justify-content: center;
+    background-color: bisque;
+    opacity: 100%;
+    border-radius: 10px;
+    font-size: 21px;
+}
+#iconx{
+
+    position: absolute;
+    right: 10px;
+    top:10px;
+    font-size: 25px;
+    
+}
+#right-title{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 30px;
+}
+@media screen and (max-width:960px) {
+    .popup{
+        top:100px;
+    }
+    .popup-in{
+        flex-direction: column;
+        width: 75%;
+        height: 65%;
+        justify-content: center;
+        display: flex;
+        padding: 20px;
+        
+    }
+    .popup-in-left{
+        width: 100%;
+        justify-content: center;
+        align-items: first baseline;
+        display: flex;
+    }
+    .popup-in-right{
+        margin: 0;
+        padding: 0;
+        font-size: 15px;
+        line-height: 8px;
+        display: block;
+        position: fixed;
+        width: 70%;
+        bottom: 40px;
+        padding: 20px;
+        text-align: center;
+
+    }
+    #verticalpic{
+        height: 27%;
+        position: fixed;
+        padding: 3px 4px;
+        border: 10px solid black;
+        
+    }
+    #horizontalpic{
+        width: 48%;
+        position: fixed;
+        padding: 3px 4px;
+        border: 10px solid black; 
+    }
+    #right-title{
+        font-size: 21px;
+        padding-bottom: 7px;
+    }
+}

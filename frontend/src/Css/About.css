@@ -1,0 +1,77 @@
+.about-content{
+    width: 100vw;
+    height:80vh;
+    background-image: url('../../public/img/bg2.jpg');
+    position:absolute;
+    margin-top: 140px;
+    padding: 30px;
+    border-radius: 30px;
+    display:flex;
+}
+#about-me{
+    color: black;
+    margin-top: 20px;
+    padding: 0;
+    text-align: center;
+    font-style:oblique;
+}
+#about-quote{
+    padding-top: 30px;
+    font-style: italic;
+    font-family: cursive;
+    font-size: 21px;
+}
+
+.about-artist{
+    margin: 0;
+    padding: 20px;
+    text-align: center!important;
+}
+.artist-img{
+    
+    justify-content: center;
+    display: flex;
+    align-items: center;
+   
+}
+#intro{
+    padding:20px 30px;
+    font-size: 18px;
+}
+.a-img{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    
+}
+.a-img img{
+    margin-top: 25px;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 960px){
+    
+    .about-content{
+        width: auto;
+        height: fit-content;
+        display:block;
+    }
+    .artist-img{
+        
+        margin: 0%;
+        padding: 0%;
+        justify-content: center;
+        display: flex;
+        
+       
+    }
+
+
+}
