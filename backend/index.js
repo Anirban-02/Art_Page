@@ -62,7 +62,7 @@ const mySchema=new mongoose.Schema({
  //posting data in database and sending email to the user.
  app.post('/data',async(req,res)=>{
     const{name,email,address,number,size,medium,amount}=req.body;
-    console.log("usermail : ",email)
+    
     let config={
         service:'gmail',
         auth:{
