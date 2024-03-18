@@ -12,7 +12,7 @@ const port=process.env.PORT||5000;
 app.use(express.json());
 app.use(cors(
     {
-        origin:"http://localhost:3000",
+        origin:"https://art-page-front.vercel.app",
         methods:["POST","GET"],
         credentials:true
     }
