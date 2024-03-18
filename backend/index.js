@@ -20,17 +20,7 @@ app.use(cors(
 mongoose.connect(process.env.Mongo_url).then(()=>console.log("Connected to Database"))
 .catch((err)=>console.log("Database Not Connected"));
 
-const storage=multer.diskStorage({
-    destination: function(req,file,cb){
-        cb(null,'../frontend/public/orderedImages')
-    },
-    filename:function(req,file,cb){
-        cb(null,file.originalname)
-    }
-});
-const upload=multer({ 
-    storage:storage
-});
+
 
 const mySchema=new mongoose.Schema({
     name:{
