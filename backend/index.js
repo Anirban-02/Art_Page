@@ -19,7 +19,12 @@ app.use(cors(
 ));
 mongoose.connect(process.env.Mongo_url).then(()=>console.log("Connected to Database"))
 .catch((err)=>console.log("Database Not Connected"));
-
+app.get('/',(req,res)=>{
+    return res.json({
+        success:true,
+        message:"Server is Ready",
+    });
+ });
 
 
 const mySchema=new mongoose.Schema({
@@ -53,12 +58,7 @@ const mySchema=new mongoose.Schema({
     }
  );
  const Mymodel=new mongoose.model("artTest1",mySchema);
-app.get('/',(req,res)=>{
-    return res.json({
-        success:true,
-        message:"Server is Ready",
-    });
- });
+
  //posting data in database and sending email to the user.
  app.post('/data',upload.single("orderImage"),async(req,res)=>{
     const{name,email,address,number,size,medium,amount}=req.body;
