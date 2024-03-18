@@ -57,7 +57,7 @@ const mySchema=new mongoose.Schema({
     }
     }
  );
- const Mymodel=new mongoose.model("artTest1",mySchema);
+ const Mymodel=mongoose.models.artTest1 || mongoose.model("artTest1",mySchema);
 
  //posting data in database and sending email to the user.
  app.post('/data',upload.single("orderImage"),async(req,res)=>{
