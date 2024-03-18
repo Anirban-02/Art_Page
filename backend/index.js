@@ -60,7 +60,7 @@ const mySchema=new mongoose.Schema({
  const Mymodel=mongoose.models.artTest1 || mongoose.model("artTest1",mySchema);
 
  //posting data in database and sending email to the user.
- app.post('/data',upload.single("orderImage"),async(req,res)=>{
+ app.post('/data',async(req,res)=>{
     const{name,email,address,number,size,medium,amount}=req.body;
     console.log("usermail : ",email)
     let config={
